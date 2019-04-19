@@ -1,0 +1,77 @@
+body{
+margin:30px 50px auto;
+padding:0px;
+background-color:#8e44ad;
+background-image:url(images/bg-desktop.svg);
+opacity:0.8;
+/* in this section in */
+-moz-opacity:20%;
+font-family: 'Poppins', sans-serif;
+}
+.moru img{
+	margin-bottom: 30px;
+	margin-top:5px;
+}
+
+h3{
+	font-size:40px;
+}
+.moru{
+	margin-bottom: 30px;
+}
+.wrapper{
+	margin:15px;
+	color:white;
+}
+.row{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+}
+.column{
+	display:flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex:1;
+}
+.green-column{
+	height:100%;
+	margin-top:10%;
+	padding-left:40px;
+	font-size:20px;
+}
+.blue-column{
+	height:100%;
+	padding:0px;
+}
+.green-column p{
+	font-weight:20px;
+}
+.belle{
+	color:#3B3B98;
+	opacity:0.8;
+	background-color: white;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	margin:4px 2px;
+	border-radius:37px;
+	height:15%;
+	width:40%;
+	border-style:none;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0.7,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+li{
+	list-style:none;
+	margin:11px 10px;
+	display:inline-block;
+	font-size:20px;
+	padding:10px 8px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:50%;
+	float:right;
+}
